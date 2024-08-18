@@ -1,0 +1,9 @@
+[submodule "lib/c_process_bridge"]
+	path = lib/c_process_bridge
+	url = https://github.com/robertoporpora/c_process_bridge
+[submodule "lib/node_process_bridge"]
+	path = lib/node_process_bridge
+	url = https://github.com/robertoporpora/node_process_bridge
+[submodule "lib/python_process_bridge"]
+	path = lib/python_process_bridge
+	url = https://github.com/robertoporpora/python_process_bridge
