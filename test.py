@@ -22,6 +22,19 @@ def main():
         'node', stringify_path(node_test_02),
         'node', stringify_path(node_child)
     ])
+
+    python_test = os.path.join(root_folder, 'python')
+    python_child = os.path.join(python_test, 'child.py')
+    
+    run([
+        'node', stringify_path(node_test_01),
+        'python', stringify_path(python_child)
+    ])
+
+    run([
+        'node', stringify_path(node_test_02),
+        'python', stringify_path(python_child)
+    ])
     
     c_test = os.path.join(root_folder, 'c')
     c_build_folder = os.path.join(c_test, 'build')
